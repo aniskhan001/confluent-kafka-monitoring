@@ -27,3 +27,9 @@ dependencies:
   version: 0.1.0
   repository: file://./charts/cp-control-center
   condition: cp-control-center.enabled
+- name: grafana
+  version: 3.8.0
+  repository: file://./charts/grafana
+- name: prometheus
+  version: 8.15.0
+  repository: file://./charts/prometheus
